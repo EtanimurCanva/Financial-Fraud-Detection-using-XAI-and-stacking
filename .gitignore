@@ -1,0 +1,67 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs/editors
+.vscode/
+.idea/
+*.code-workspace
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+.conda-env/
+
+# Packaging/build
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Testing/coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# Logs
+logs/
+*.log
+
+# Secrets/credentials
+.env
+.env.*
+*.env
+kaggle.json
+
+# Data and generated artifacts from notebooks/pipelines
+data/
+!data/.gitkeep
+
+# Common model/binary artifacts (in case any are outside data/)
+*.joblib
+*.pkl
+*.cbm
+*.bst
+*.model
+*.bin
